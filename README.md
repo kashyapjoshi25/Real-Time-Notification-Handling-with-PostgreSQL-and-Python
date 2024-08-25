@@ -169,4 +169,11 @@ Handle Notifications: The handle_notifications function connects to PostgreSQL, 
 #### Jupyter Notebook Integration
 Async Handling: The notebook script uses nest_asyncio to handle asynchronous operations within Jupyter’s event loop. It runs the notification handler directly in the notebook.
 
+#### References:
+https://www.crunchydata.com/blog/real-time-database-events-with-pg_eventserv 
+
+https://www.cybertec-postgresql.com/en/listen-notify-automatic-client-notification-in-postgresql/ 
+
+https://github.com/crunchydata/pg_eventserv?tab=readme-ov-file
+
 
